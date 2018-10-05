@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>CRM</title>
+    <link rel="stylesheet" href="css/main.min.css"/>
+  </head>
+  <body></body>
+  <div class="wrapper">
+    <aside class="sidebar">
+      <h1 class="title">crm</h1>
+      <nav class="sidebar">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link nav__link-dashboard" href="#">Dashboard</a></li>
+            <li class="nav__item"><a class="nav__link nav__link-reports" href="#">Reports</a></li>
+            <li class="nav__item"><a class="nav__link nav__link-customers nav__link-active" href="#">Customers</a></li>
+            <li class="nav__item"><a class="nav__link nav__link-calendar" href="#">Calendar</a></li>
+          </ul>
+        </nav>
+      </nav>
+    </aside>
+    <main class="page-content">
+      <header class="header">
+        <div class="container">
+          <div class="header__container">
+            <div class="breadcrums">
+              <ul class="breadcrums__list">
+                <li class="breadcrums__item"><a class="breadcrums__link" href="#">Customers</a></li>
+                <li class="breadcrums__item"><a class="breadcrums__link breadcrums__link-active" href="#">Max Jones</a></li>
+              </ul>
+            </div>
+            <div class="search">
+              <form action="#" method="post">
+                <input class="search__input" type="text" placeholder="search"/>
+                <input class="search__submit" type="submit"/>
+              </form>
+            </div>
+            <div class="notifications"><img class="notifications__img" src="images/header/notification.png"/>
+              <div class="notifications__col">4</div>
+            </div>
+            <div class="user">
+              <div class="user__avatar"><img class="user__avatar-pic" src="images/header/user.png"/></div>
+              <div class="user__username">Hello Lauren</div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content"> 
+        <div class="about clearfix">
+          <div class="about__left">
+            <div class="about__pic"><img class="about__pic-img" src="images/content/user.png"/></div>
+          </div>
+          <div class="about__right">
+            <div class="about__user">
+              <div class="about__title">
+                <h2 class="title__name">Max Jones</h2>
+                <div class="about__status">gold</div>
+              </div>
+              <div class="about__desc">Sales & Marketing</div>
+            </div>
+            <div class="about__contact">
+              <div class="about__phone clearfix">
+                <div class="about__contact-head">phone</div><a class="about__contact-link" href="tel:(+31) 140 175 468">(+31) 140 175 468</a>
+              </div>
+              <div class="about__address">
+                <div class="about__contact-head">address</div><a class="about__contact-link" href="Binnenweg 50, Rotterdam">Binnenweg 50, Rotterdam</a>
+              </div>
+              <div class="about__btn"><a class="button" href="#">create quote</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs">
+          <ul class="tabs__list">
+            <li class="tabs__item"><a class="tabs__link tabs__link-active" href="#">Overview</a></li>
+            <li class="tabs__item"><a class="tabs__link" href="#">Orders</a></li>
+            <li class="tabs__item"><a class="tabs__link" href="#">Payments</a></li>
+          </ul>
+          <div class="tabs__content"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</html>
